@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+   <script defer src="./script.js"></script>
+<title>Single Page</title>
+</head>
+<body>  
+<!--Navbar background-->
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand ml-auto" href="#">ZIPPY</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">PROJECTS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#price">PRICING</a>
+        </li>        
+        <li class="nav-item">
+          <a class="nav-link" href="#team">TEAM</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#blog">BLOG</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!--Carousel-->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images/menu1.jpg" class="d-block w-100" alt="ZIPPY">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/menu2.jpg" class="d-block w-100" alt="ZIPPY">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/menu3.jpg" class="d-block w-100" alt="ZIPPY">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/menu4.jpg" class="d-block w-100" alt="ZIPPY">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="carousel_text">
+  <h1 class="col-sm-5" >One page promising to fill all your needs</h1>
+  <p class="col-sm-5">This is a photoshop's version of lorem ipsum .Proin gravida nibh vel velit auctor aliquet</p>
+ <button id="btn1"><a href="#learnmore">LEARN MORE</a></button>
+ <button id="btn2" ><a href="#learnmore">LEARN MORE</a></button>
+</div>
+
+
+<div class="container" id="welcome" > 
+  <h1>Welcome to Zippy</h1>
+  <div class="row">
+    <p id="umb_row" class="col-sm-4 offset-3" >This is a photoshop's version of lorem ipsum .Proin gravida nibh vel velit auctor aliquet. Aenean sol-lictiudin, lorem quis bibendum auctor.</p>
+  <img class="col-sm-4" src="./images/umbreall.png" id="umb" alt="Zippy" />
+  </div>
+</div>
+
+<div class="container" id="learnmore" >
+  <div class="row offset-2">
+    <div class="col-sm-3">
+      <img src="./images/bell.jpg" alt="" class="about" />
+      <h2>LOREM IPSUM</h2>
+      <p>This is a photoshop's version of lorem ipsum .Proin gravida nibh vel velit auctor aliquet.</p>
+     <button id="lm1"> <a href="">LEARN MORE</a></button>
+    </div>
+    <div class="col-sm-3">
+      <img src="./images/env.png" alt="" class="about" />
+      <h2>LOREM IPSUM</h2>
+      <p>This is a photoshop's version of lorem ipsum .Proin gravida nibh vel velit auctor aliquet.</p>
+      <button id="lm2"> <a href="">LEARN MORE</a></button>
+    </div>
+    <div class="col-sm-3">
+      <img src="./images/book.png" alt="" class="about" />
+      <h2>LOREM IPSUM</h2>
+      <p>This is a photoshop's version of lorem ipsum .Proin gravida nibh vel velit auctor aliquet.</p>
+      <button id="lm3"> <a href="">LEARN MORE</a></button>
+    </div>
+  </div>
+</div>
+
+
+<div class="container" id="projects" >
+  <h1>Projects</h1>
+  <div class="row">
+  <div class="project  col-sm-3" >
+    <img src="./images/pro1.jpg" class="pro" alt="" />
+    <h3>PROJECT NAME</h3>
+    <p>This is a photoshop's version of lorem ipsum .Proin gravida nibh vel velit auctor aliquet.</p>
+    <button class="pro_btn" ><a href="">LAUNCH CASE STUDY</a></button>
+  </div>
+  <div class="project col-sm-3">
+    <img src="./images/pro2.jpeg" class="pro" alt="" />
+    <h3>PROJECT NAME</h3>
+    <p>This is a photoshop's version of lorem ipsum .Proin gravida nibh vel velit auctor aliquet.</p>
+    <button class="pro_btn" ><a href="">LAUNCH CASE STUDY</a></button>
+  </div>
+  <div class="project col-sm-3">
+    <img src="./images/pro1.jpg" class="pro" alt="" />
+    <h3>PROJECT NAME</h3>
+    <p>This is a photoshop's version of lorem ipsum .Proin gravida nibh vel velit auctor aliquet.</p>
+    <button class="pro_btn"><a href="">LAUNCH CASE STUDY</a></button>
+  </div>
+  <div class="project col-sm-3">
+    <img src="./images/pro2.jpeg" class="pro" alt="" />
+    <h3>PROJECT NAME</h3>
+    <p>This is a photoshop's version of lorem ipsum .Proin gravida nibh vel velit auctor aliquet.</p>
+    <button class="pro_btn"><a href="">LAUNCH CASE STUDY</a></button>
+  </div>
+  </div>
+</div>
+
+<!--Pricing Table-->
+<div class="container" id="price">
+  <h1>Pricing Table</h1>
+  <div class="row">
+    
+  <div class="col-sm-4" id="price1" >
+    <h2>STANDARD PLAN</h2>
+    <p>Free</p>
+    <h4>2 GB Available</h4>
+    <h4>15 max contacts</h4>
+    <h4>30 messages more</h4>
+    <h4>Ads Free</h4>
+    <button class="buy" ><a href="">BUY</a></button>
+  </div>
+  <div class="col-sm-4" id="price2" >
+    <h2>  BUSINESS PLAN</h2>
+    <p>195/month</p>
+    <h4>10 GB Available</h4>
+    <h4>75 max contacts</h4>
+    <h4>120 messages more</h4>
+    <h4>Ads Free</h4>
+    <button class="buy" ><a href="">BUY</a></button>
+  </div>  
+  <div class="col-sm-4">
+    <h2>PREMIUM PLAN</h2>
+    <p>145/month</p>
+    <h4>100 GB Available</h4>
+    <h4>Unlimited Contacts </h4>
+    <h4>Unlimited messages month</h4>
+    <h4>Ads Free</h4>
+    <button class="buy" ><a href="">BUY</a></button>
+  </div>
+  </div>
+</div>
+
+<!--Videos-->
+
+<div class="video_project container"  >
+  <h1>Video Projects</h1>
+  <div class="videos">
+    <div>
+      <iframe width="660" height="315" src="https://www.youtube.com/embed/uYzE9L2W4pc" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div>
+      <iframe width="660" height="315" src="https://www.youtube.com/embed/gBelKUZ_VDE" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+    </div>
+    <div>
+      <iframe width="660" height="315" src="https://www.youtube.com/embed/uYzE9L2W4pc" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div>
+      <iframe width="760" height="315" src="https://www.youtube.com/embed/gBelKUZ_VDE" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+    </div>
+    <div>
+      <iframe width="760" height="315" src="https://www.youtube.com/embed/uYzE9L2W4pc" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div>
+      <iframe width="760" height="315" src="https://www.youtube.com/embed/gBelKUZ_VDE" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+    </div>
+    </div>
+  </div>
+</div>
+  
+</div>
+</div>
+
+<!--Team Members-->
+
+<div class="container" id="team">
+  <h1>Zippy Team</h1>
+  <div class="row" >
+    <div class="team_1 col-sm-4">
+      <img src="./images/i1.png" class='team' alt="Zippy" />
+      <div class="social row">
+        <i  style="font-size: 25px" class="col-sm-2  fa fa-facebook"></i>
+        <i  style="font-size: 25px" class="col-sm-2 fa fa-twitter"></i>
+        <i  style="font-size: 25px" class="col-sm-2 fa fa-linkedin"></i>
+      </div>
+      <h2>SARA JOHNSON</h2>
+      <p>Project Manager</p>
+    </div>
+    <div class="team_2 col-sm-4">
+      <img src="./images/i2.jpg" class='team' alt="Zippy" />
+      <div class="social row">
+        <i  style="font-size: 25px" class="col-sm-2  fa fa-facebook"></i>
+        <i  style="font-size: 25px" class="col-sm-2 fa fa-twitter"></i>
+        <i  style="font-size: 25px" class="col-sm-2 fa fa-linkedin"></i>
+      </div>
+      <h2>MICHAEL JOHNSON</h2>
+      <p>Web Developer</p>
+    </div>
+    <div class="team_3 col-sm-4">
+      <img src="./images/i3.png" class='team' alt="Zippy" />
+      <div class="social row">
+        <i  style="font-size: 25px" class="col-sm-2  fa fa-facebook"></i>
+        <i  style="font-size: 25px" class="col-sm-2 fa fa-twitter"></i>
+        <i  style="font-size: 25px" class="col-sm-2 fa fa-linkedin"></i>
+      </div>
+      <h2>WILLIAMSON</h2>
+      <p>Creative Head</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="team_4 col-sm-4">
+      <img src="./images/i4.jpg" class='team' alt="Zippy" />
+      <div class="social row">
+        <i  style="font-size: 25px" class="col-sm-2  fa fa-facebook"></i>
+        <i  style="font-size: 25px" class="col-sm-2 fa fa-twitter"></i>
+        <i  style="font-size: 25px" class="col-sm-2 fa fa-linkedin"></i>
+      </div>
+      <h2>SARA JOHNSON</h2>
+      <p>Programmer</p>
+    </div>
+    <div class="team_5 col-sm-4">
+      <img src="./images/i3.png" class='team' alt="Zippy" />
+      <div class="social row">
+        <i  style="font-size: 25px" class="col-sm-2  fa fa-facebook"></i>
+        <i  style="font-size: 25px" class="col-sm-2 fa fa-twitter"></i>
+        <i  style="font-size: 25px" class="col-sm-2 fa fa-linkedin"></i>
+      </div>
+      <h2>SARA JOHNSON</h2>
+      <p>Supervisor</p>
+    </div>
+    <div class="team_6 col-sm-4">
+      <img src="./images/i1.png" class='team' alt="Zippy" />
+      <div class="social row">
+        <i  style="font-size: 25px" class="col-sm-2  fa fa-facebook"></i>
+        <i  style="font-size: 25px" class="col-sm-2 fa fa-twitter"></i>
+        <i  style="font-size: 25px" class="col-sm-2 fa fa-linkedin"></i>
+      </div>
+      <h2>SARA JOHNSON</h2>
+      <p>Product Tester</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <!-- Carousel Navigation -->
+  <div class="life container">
+    <h1>Life At Zippy</h1>
+    <div class="slider slides_x" >
+        <div><img src="./images/life1.jpg" alt="Zippy" /></div>
+        <div><img src="./images/life2.jpg" alt="Zippy" /></div>
+        <div><img src="./images/life3.jpg" alt="Zippy" /></div>
+        <div><img src="./images/life4.jpg" alt="Zippy" /></div>
+        <div><img src="./images/life5.jpg" alt="Zippy" /></div>
+        <div><img src="./images/life6.jpg" alt="Zippy" /></div>
+        <div><img src="./images/life7.jpg" alt="Zippy" /></div>
+        <div><img src="./images/life8.jpg" alt="Zippy" /></div>
+        <div><img src="./images/life9.jpg" alt="Zippy" /></div>
+    </div>
+    <div class="slider slides_nav" >
+      <div><img src="./images/life1.jpg" alt="Zippy" /></div>
+      <div><img src="./images/life2.jpg" alt="Zippy" /></div>
+      <div><img src="./images/life3.jpg" alt="Zippy" /></div>
+      <div><img src="./images/life4.jpg" alt="Zippy" /></div>
+      <div><img src="./images/life5.jpg" alt="Zippy" /></div>
+      <div><img src="./images/life6.jpg" alt="Zippy" /></div>
+      <div><img src="./images/life7.jpg" alt="Zippy" /></div>
+      <div><img src="./images/life8.jpg" alt="Zippy" /></div>
+      <div><img src="./images/life9.jpg" alt="Zippy" /></div>
+  </div>
+  </div>
+
+
+<!--newsletter signup-->
+<div class="container">
+  <img id="news_img" class="col-sm-12"  src="./images/signup.jpg" alt="Zippy" />
+  <h1 id="news_head" >Newsletter Signup</h1>
+  <form action="" id="signup_form">
+    <input type="text" placeholder="abc@example.com" name="email" id="email" />
+    <input type="submit" value="SIGN UP" id="signup1" /><br />
+    <input type="submit" value="SIGN UP" id="signup2" />
+  </form>
+</div>
+<!--BLOG-->
+<div class="container" id="blog">
+  <h1>Blog</h1>
+  <div class="row">
+  <div class="col-sm-4  " id="blog1" >
+    <img src="./images/grp1.jpg" id="grp1" alt="Zippy" />
+    <h3>Lorem Ipsum Website</h3> 
+    <p>15 Jan, 2015</p>
+    <p>lorem ipsum .Proin gravida nibh vel velit auctor aliquet.lorem ipsum .Proin gravida nibh vel velit auctor aliquet.</p>
+    <button class="blog_pic" ><a href="">READ MORE</a></button>
+  </div>
+  <div class="col-sm-4" id="blog2">
+    <img src="./images/grp2.jpg" id="grp2" alt="ZIPPY" />
+    <h3>Lorem Ipsum Website</h3> 
+    <p>15 Jan, 2015</p>
+    <p>lorem ipsum .Proin gravida nibh vel velit auctor aliquet.lorem ipsum .Proin gravida nibh vel velit auctor aliquet.</p>
+    <button class="blog_pic" ><a href="">READ MORE</a></button>
+  </div>
+  <div class="col-sm-4" id="blog3">
+    <img src="./images/grp3.jpg" id="grp3" alt="ZIPPY" />
+    <h3>Lorem Ipsum Website</h3> 
+    <p>15 Jan, 2015</p>
+    <p>lorem ipsum .Proin gravida nibh vel velit auctor aliquet.lorem ipsum .Proin gravida nibh vel velit auctor aliquet.</p>
+    <button class="blog_pic" ><a href="">READ MORE</a></button>
+  </div>
+  </div>
+</div>
+
+<!--CONTACT-->
+<div class="container" id="contactdiv" >
+    <div class="row">
+      <div class="col-sm-6" id="map" >
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125323.47388556176!2d76.89719438555319!3d11.011701573397609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859af2f971cb5%3A0x2fc1c81e183ed282!2sCoimbatore%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1626275573154!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="col-sm-6" id="c_form" >
+        <h2>CONTACT</h2>
+        <form action="" id="contact_form" >
+          <label for="name">NAME</label><br />
+          <input type="text" name="name" id="name" /><br />
+          <label for="email">EMAIL ADDRESS</label><br />
+          <input type="text" name="email" id="email" /><br />
+          <label for="subject">SUBJECT</label><br />
+          <input type="text" name="subject" id="subject" /><br />
+          <label for="message">MESSAGE</label><br />
+          <textarea name="msg" id="message"></textarea><br />
+          <input type="submit" value="SEND" id="submit_contact" /><br />
+        </form>
+    </div>
+    </div>
+</div>
+<!--Contact-->
+
+<div class="container" id="contact" >
+  <div class="row">
+    
+  <div id="f1" class="col-sm-4">
+    <h3>OFFICE ADDRESS</h3>
+    <h4>Lorem Ipsum dolor, 234</h4>
+    <h4>1200 Consecutive</h4>
+    <h4>Adipsching</h4>
+  </div>
+  <div class="col-sm-4" id="f2" >
+    <h3>FOLLOW US</h3>
+    <div class="row offset-4" id="r1" >
+        <div class="col-sm-2"><a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a></div>
+        <div class="col-sm-2"><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></div>
+        <div class="col-sm-2"><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></div>
+    </div>
+    <div class="row offset-4" id="r2" >
+        <div class="col-sm-2"><a href="https://www.google.com/"><i class="fa fa-google-plus"></i></a></div>
+        <div class="col-sm-2"><a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></div>
+        <div class="col-sm-2"><a href="https://www.telegram.com/"><i class="fa fa-telegram"></i></a></div>
+    </div>
+  </div>
+  <div class="col-sm-4" id="f3" >
+    <h3>CONTACT US</h3>
+    <h4>+123 456 789</h4>
+    <h4>zippy@skype</h4>
+    <h4>enquiry@zippy.com</h4>
+  </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" ></script>
+<script type="text/javascript" >
+$('.slides_for').slick({
+  arrows: false,
+  asNavFor: '.slider-nav,.slider-x',
+});
+$('.slides_x').slick({
+  arrows: true,
+  asNavFor: '.slides_for,.slides_nav',
+});
+$('.slides_nav').slick({
+  arrows: true,
+  asNavFor: '.slides_for,.slides_x',
+  centerMode: true,
+  centerPadding: '60px',
+  dots: false,
+  focusOnSelect: true,
+  slidesToShow: 5,
+});
+$('.slick-prev').prepend('<i class="fa  fa-arrow-left" font-size=25px ></i></div>');
+$('.slick-next').append('<i class="fa  fa-arrow-right" font-size=25px></i></div>');
+
+$('.videos').slick({
+  slidesToShow: 2,
+  slidesToScroll: 3,
+});
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+body{
+    scroll-behavior: smooth;
+}
+.user{
+    border: 5px solid grey;
+    padding: 15px;
+    width: 440px;
+    margin-top: 28px;
+    float: left;
+    margin-right: 9px;
+}
+.user:hover{
+    background-color: greenyellow;
+    transform: translateY(-10px);
+    box-shadow: 1px 5px 7px 5px brown;
+}
+.user:hover img{
+    border: 5px solid brown;
+}
+.user img{
+    width: 250px;
+}
+.displayusers{
+    display: block;
+    margin-left: 80px;
+}
+.spinner-border{
+    font-size: 347px;
+    margin-top: 215px;
+}
+.navbar .navbar-expand-lg .navbar-light .bg-light .sticky-top{
+    background-color: chocolate;
+}

@@ -1,0 +1,18 @@
+body{
+    background-color: #deb887!important;
+}
+h1,h2,p{
+    text-align: center;
+}
+.table{
+    margin-left: auto!important;
+    margin-right: auto!important;
+    font-size: 20px;
+}
+input[type='submit']{
+    margin-left: -2px;
+    width: 149px;
+}
+p{
+    font-size: 22px;
+}

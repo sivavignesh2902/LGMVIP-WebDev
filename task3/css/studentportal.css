@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    scroll-behavior: smooth;
+    background-color: #deb887!important;
+}
+.student_detail table{
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+.navbar-brand{
+    font-size: 25px!important;
+    font-weight: 700!important;
+}
+.nav-item{
+    font-size: 25px!important;
+    font-weight: 700!important;
+    color: white!important;
+    margin-right: 117px;
+}
+.results_div{
+    margin-top: 50px;
+    border: 5px solid #978e82;
+}
+.results_div,.result_div table,form{
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+.result_div table{
+    margin-top: 50px;
+    text-align: center;
+}
+label{
+    font-size: 25px!important;
+    font-weight: 600;
+}
+h2{
+    text-align: center;
+}
+input[type='submit']{
+    margin-top: 25px;
+}
+table{
+    font-size: 20px;
+}
